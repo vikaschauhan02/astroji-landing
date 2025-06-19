@@ -9,7 +9,7 @@ const Hero = () => {
   const maxEnrolled = Math.floor((maxPercent / 100) * totalSlots); // e.g., 225
 
   const [enrolled, setEnrolled] = useState(
-    Math.floor(0.6 * maxEnrolled) // start around 60%
+    Math.floor(0.7 * maxEnrolled) // counter start at around 70%
   );
 
   useEffect(() => {
@@ -20,7 +20,7 @@ const Hero = () => {
       });
     }, 3000); // update every 3 sec
     return () => clearInterval(interval);
-  }, []);
+  }, [maxEnrolled]);
 
   const percentFilled = (enrolled / totalSlots) * 100;
 
