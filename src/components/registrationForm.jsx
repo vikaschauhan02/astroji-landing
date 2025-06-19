@@ -18,7 +18,7 @@ const RegistrationForm = () => {
   return (
     <div id="registration-form" className="relative z-30">
       <div
-        className="w-[90%] mx-auto -mt-40 bg-white border-2 border-borderLight border-t-none rounded-2xl shadow-2xl p-5 md:p-8 flex flex-col gap-4 items-center justify-center"
+        className="w-[90%] mx-auto -mt-36 bg-white border-2 border-borderLight border-t-0 rounded-2xl shadow-2xl p-5 md:p-8 flex flex-col gap-4 items-center justify-center"
       >
         <p className='text-xl font-bold text-center text-orange-500'>Book your slot by just confirming your details.</p>
         <input
