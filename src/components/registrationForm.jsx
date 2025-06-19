@@ -18,7 +18,7 @@ const RegistrationForm = () => {
   return (
     <div id="registration-form" className="relative z-30">
       <div
-        className="w-[90%] md:w-[70%] mx-auto -mt-40 bg-white border-2 border-borderLight border-t-none rounded-2xl shadow-2xl p-5 md:p-8 flex flex-col md:flex-row gap-4 items-center justify-center"
+        className="w-[90%] mx-auto -mt-40 bg-white border-2 border-borderLight border-t-none rounded-2xl shadow-2xl p-5 md:p-8 flex flex-col gap-4 items-center justify-center"
       >
         <p className='text-xl font-bold text-center text-orange-500'>Book your slot by just confirming your details.</p>
         <input
@@ -28,7 +28,7 @@ const RegistrationForm = () => {
           value={form.name}
           onChange={handleChange}
           required
-          className="w-full md:w-1/4 p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange-400"
+          className="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange-400"
         />
         <input
           type="email"
@@ -37,7 +37,7 @@ const RegistrationForm = () => {
           value={form.email}
           onChange={handleChange}
           required
-          className="w-full md:w-1/4 p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange-400"
+          className="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange-400"
         />
         <input
           type="tel"
@@ -46,12 +46,12 @@ const RegistrationForm = () => {
           value={form.contact}
           onChange={handleChange}
           required
-          className="w-full md:w-1/4 p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange-400"
+          className="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange-400"
         />
         <button
           type="submit"
           onClick={handleSubmit}
-          className="w-full md:w-auto px-6 py-3 bg-orange-500 text-white font-bold rounded-2xl hover:bg-orange-600 transition"
+          className="w-full px-6 py-3 bg-orange-500 text-white font-bold rounded-2xl hover:bg-orange-600 transition"
         >
           Register Now For ₹0
         </button>

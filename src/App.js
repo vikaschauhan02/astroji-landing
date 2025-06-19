@@ -10,14 +10,18 @@ import CountdownBar from './components/countdownBar';
 function App() {
   return (
     <>
-      <Hero />
-      <RegistrationForm />
-      <CoachSection />
-      <WhatWillYouLearn />
-      <FeedbackSection />
-      <FaqSection />
-      <Banner />
-      <CountdownBar />
+    <div className="w-full min-h-screen flex justify-center bg-[#f9fafb]">
+      <div className="w-[420px] bg-white shadow-lg">
+        <Hero />
+        <RegistrationForm />
+        <CoachSection />
+        <WhatWillYouLearn />
+        <FeedbackSection />
+        <FaqSection />
+        <Banner />
+        <CountdownBar />
+      </div>
+    </div>
     </>
   );
 }

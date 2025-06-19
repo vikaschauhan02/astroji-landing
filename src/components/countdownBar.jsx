@@ -14,8 +14,8 @@ const CountdownBar = () => {
   const seconds = String(timeLeft % 60).padStart(2, "0");
 
   return (
-    <div className="fixed bottom-0 left-0 w-full bg-white text-black py-2 px-2 border-2 border-orange-400 rounded-xl flex flex-col md:flex-row items-center justify-center z-50 shadow-lg">
-      <div className="flex flex-col md:flex-row md:items-center text-center space-y-2 md:space-y-0 md:space-x-4">
+    <div className="fixed bottom-0 w-96 bg-white text-black py-2 px-2 border-2 border-orange-400 rounded-xl flex flex-col items-center justify-center z-50 shadow-lg">
+      <div className="flex flex-col md:items-center text-center space-y-2 md:space-y-0 md:space-x-4">
         <p className="text-sm font-semibold">Limited Time Offer*</p>
         <p className="text-lg font-semibold">
           Closing in
