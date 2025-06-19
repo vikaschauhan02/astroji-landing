@@ -27,15 +27,17 @@ const Banner = () => {
       {/* Banner */}
       {showBanner && (
         <div className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 w-[90%] max-w-md bg-white text-black p-4 rounded-xl shadow-2xl border-2 border-orange-400">
-          <div className="flex justify-between items-center mb-2">
-            <h3 className="text-xl font-bold">🎁 A Special Gift for You!</h3>
-            <button onClick={closeBanner} className="text-gray-600 hover:text-black">
-              <X />
-            </button>
-          </div>
-          <p className="mt-4 text-xl font-bold text-center">
-            <span style={{color: '#ff0000' }}>REGISTER NOW</span> & Get <span className="text-primary">VASTU E-Book </span>worth ₹799/- for <br /><span style={{fontSize: '30px', color: 'lime'}}> FREE !!</span>
-          </p>
+          <a href="#for-registration">
+            <div className="flex justify-between items-center mb-2">
+              <h3 className="text-xl font-bold">🎁 A Special Gift for You!</h3>
+              <button onClick={closeBanner} className="text-gray-600 hover:text-black">
+                <X />
+              </button>
+            </div>
+            <p className="mt-4 text-xl font-bold text-center">
+              <span style={{color: '#ff0000' }}>REGISTER NOW</span> & Get <span className="text-primary">VASTU E-Book </span>worth ₹799/- for <br /><span style={{fontSize: '30px', color: 'lime'}}> FREE !!</span>
+            </p>
+          </a>
         </div>
       )}
 

@@ -1,5 +1,5 @@
 import heroImage from './images/bg.jpeg';
-import mentorHero from './images/mentor-hero.png';
+import heroBanner from './images/hero-banner.png';
 import astroji from './images/AstroJi-Logo.png';  
 import { useEffect, useState } from "react";
 
@@ -27,7 +27,7 @@ const Hero = () => {
 
   return (
     <section
-      className="relative bg-cover bg-center bg-no-repeat text-white min-h-[1350px] md:min-h-[1350px] flex flex-col items-center justify-center"
+      className="relative bg-cover bg-center bg-no-repeat text-white min-h-[1050px] md:min-h-[1050px] flex flex-col items-center justify-center"
       style={{ backgroundImage: `url('${heroImage}')` }}>
       <div className="absolute inset-0 bg-black/80 z-0" />
       <div className="w-full flex justify-center absolute top-2 left-0 z-30">
@@ -36,22 +36,22 @@ const Hero = () => {
       <h2 className="absolute p-2 mt-20 top-0 left-0 w-full text-center text-3xl sm:text-3xl md:text-4xl font-bold pt-14 z-20">
         Join Chaitanyaa Missra's Exclusive <br /><span className='text-primary underline decoration-3 underline-offset-4'>Vastu Masterclass</span>
       </h2>
-      <div className="mt-28 w-full relative flex justify-center z-20">
-        <div className="absolute left-auto right-auto inset-0 w-52 h-52 rounded-full bg-orange-500 opacity-40 blur-md"></div>
+      <div className="mt-28 w-80 rounded-xl border-2 border-orange-500 relative flex justify-center z-20">
+        {/* <div className="absolute left-auto right-auto inset-0 w-52 h-52 rounded-full bg-orange-500 opacity-40 blur-md"></div> */}
         <img
-          src={mentorHero}
+          src={heroBanner}
           alt="Mentor Chaitanya Missra"
-          className="drop-shadow-sm shadow-orange-500 object-fill"
+          className="drop-shadow-sm rounded-xl shadow-orange-500 object-fill"
         />
       </div>
-      <div className="relative z-20 max-w-2xl md:max-w-4xl px-2">
+      {/* <div className="relative z-20 max-w-2xl md:max-w-4xl px-2">
         <div className="text-4xl text-center sm:text-2xl md:text-3xl font-bold p-5 md:mb-6 max-w-xl">
           Learn Science Backed Powerful Vastu Techniques &{' '}
           <span className="text-4xl sm:text-2xl md:text-3xl font-bold text-primary md:mb-6 max-w-xl">
             Transform Your Home, Business & Life!
           </span>
         </div>
-      </div>
+      </div> */}
       <div className="relative z-20 pt-1 text-center">
         <p className="text-xl font-semibold p-4 sm:text-lg">
           Perfect for beginners & professionals who want to attract health, wealth, and success!
