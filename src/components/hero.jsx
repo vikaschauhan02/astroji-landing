@@ -64,17 +64,17 @@ const Hero = () => {
         </div>
 
         <div className="bg-white backdrop-blur-md p-2 rounded-xl shadow-md">
-          <h4 className="text-2xl font-semibold text-gray-600">⏱️<span className="text-base">Time</span></h4>
+          <h4 className="text-2xl font-semibold text-gray-600">⏱️ <span className="text-base">Time</span></h4>
           <p className="text-lg font-bold text-orange-600">09:00 PM IST</p>
         </div>
 
         <div className="bg-white backdrop-blur-md p-2 rounded-xl shadow-md">
-          <h4 className="text-2xl font-semibold text-gray-600">📍<span className="text-base">Venue</span></h4>
+          <h4 className="text-2xl font-semibold text-gray-600">📍 <span className="text-base">Venue</span></h4>
           <p className="text-lg font-bold text-orange-600">Zoom (Online)</p>
         </div>
 
         <div className="bg-white backdrop-blur-md p-2 rounded-xl shadow-md">
-          <h4 className="text-2xl font-semibold text-gray-600">💬<span className="text-base">Language</span></h4>
+          <h4 className="text-2xl font-semibold text-gray-600">💬 <span className="text-base">Language</span></h4>
           <p className="text-lg font-bold text-orange-600">Hindi</p>
         </div>
       </div>
